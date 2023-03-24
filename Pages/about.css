@@ -1,0 +1,141 @@
+html, body, h1{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav{
+   
+    padding-left: 1%;
+    padding-right: 1%;
+
+}
+
+.logo{
+    width:200px;
+    float:left;
+}
+
+.nav-con{
+    width: 550px;
+    height: 50px;
+    float:left;
+  
+}
+
+.nav-con ul{
+    list-style:none;
+
+}
+
+.nav-con li{
+    float: left;
+    padding-left:  20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 8px;
+
+}
+
+.nav-con li:hover{
+    color: white;
+    cursor: pointer;
+
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+ }
+ a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+ }
+ a:active {
+    color: black;
+    background-color: transparent;
+ }
+ header{
+    width: 100%;
+    height: 600px;
+    background-color: lightgrey;
+    padding-left: 10%;
+    padding-top: 150px;
+    padding-right: 10%;
+    
+}
+
+header p{
+    width:50%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading{
+    text-align: left;
+    font-weight: bold;
+    font: size 36px;
+   
+
+}
+
+.subheading{
+    text-align: left;
+    font-weight: 400;
+    font-size: 72px;
+
+}
+
+.about{
+    float:left;
+    font-weight: bold;
+}
+
+.col2{
+    width: 48%;
+    height: 100px;
+    background-color: grey;
+    text-align: center;
+    float: left;
+    color:white;
+}
+
+form{
+    width: 30%;
+    margin:0 auto;
+    margin-top: 100px;
+    background-color:grey;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 25%;
+    padding-bottom: 40px;
+    float:left;
+}
+
+
+.input{
+    width: 90%;
+    height: 35px;
+    background-color: darkgrey;
+    margin-top: 10px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+select, button{
+    width:95%;
+    background-color: black;
+    color: white;
+    border-radius: 5%;
+    text-align: center;
+    float:right;
+}
+
+.footer{
+    text-align: left;
+    font-weight: 500;
+}
